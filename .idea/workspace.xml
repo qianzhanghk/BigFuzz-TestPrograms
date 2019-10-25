@@ -6,32 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataset/words/input2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Benchmarks_jar/Benchmarks.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Benchmarks_jar/Benchmarks.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/words/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/salary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/salary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/student.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/student.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IncomeAggregate$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncomeAggregate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IncomeAggregate$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentGrades$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentGrades$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$.class" afterDir="false" />
-    </list>
+    <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/JoinSkew.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="558">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -323,7 +298,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.521789" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4357798" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/JoinSkew.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="558">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
