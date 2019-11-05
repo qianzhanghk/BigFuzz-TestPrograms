@@ -7,7 +7,7 @@ object JoinSkew {
   def main(args: Array[String]): Unit = {
 
     val conf = new SparkConf()
-    conf.setMaster("local[6]")
+//    conf.setMaster("local[6]")
     conf.setAppName("Join")
 
     val sc = new SparkContext(conf)
@@ -17,7 +17,7 @@ object JoinSkew {
 
     var list_t1 = List(("index","1.2.3.4"),("about","3.4.5.6"),("index","1,2,3,4"),("index","1.3.3.1"))
 
-    for (_ <-1 to 4)
+    for (_ <-1 to 20)
     {
       list_t1=list_t1 ::: list_t1
     }
@@ -26,7 +26,7 @@ object JoinSkew {
     val visit = sc.parallelize(list_t1,2)
 
     var list_t2=List(("hello","home"),("hi","home"))
-    for (_<-1 to 1)
+    for (_<-1 to 15)
     {
       list_t2=list_t2 ::: list_t2
     }

@@ -14,9 +14,9 @@ object IncomeAggregate  {
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
 
-//    val text = sc.textFile(args(0));
+    val text = sc.textFile(args(0))
 
-    val text = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/income")
+//    val text = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/income")
 
     val data = text.map {
       s =>
