@@ -8,15 +8,18 @@ import org.apache.spark.{SparkConf, SparkContext}
 object IncomeAggregate  {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
-//    conf.setMaster("local[6]")
+    conf.setMaster("local[6]")
     conf.setAppName("Income")
 
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
 
+//    val lc = new LineageContext(sc)
+//    lc.setCaptureLineage(true)
+
     val text = sc.textFile(args(0))
 
-//    val text = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/income")
+//    val text = lc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/income")
 
     val data = text.map {
       s =>
@@ -39,9 +42,16 @@ object IncomeAggregate  {
       }
     }
 
-      val sum = pair.mapValues( x => (x, 1)).reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
-        .mapValues(x => (x._2, x._1.toDouble / x._2.toDouble))
-        .foreach(println)
+    val sum = pair.mapValues( x => (x, 1)).reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
+//        .mapValues(x => (x._2, x._1.toDouble / x._2.toDouble)).collect()
+      .mapValues(x => x._1.toDouble / x._2.toDouble).collect()
+//        .foreach(println)
 //    println("Time: " + (System.currentTimeMillis() - startTime))
+
+    println(sum.getClass().getName())
+//    lc.setCaptureLineage(false)
+
+//    val linRDD = sum.getLineage()
+ //   val lines = linRDD.goBackAll().collect().foreach(println)
   }
 }

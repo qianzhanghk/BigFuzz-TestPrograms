@@ -1,1 +1,12 @@
-Apache Spark has a useful command prompt interface but its true power comes from complex data pipelines that are run non-interactively. Implementing such pipelines can be a daunting task for anyone not familiar with the tools used to build and deploy application software. This article is meant show all the required steps to get a Spark application up and running, including submitting an application to a Spark cluster.
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
