@@ -1,7 +1,7 @@
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Loop1{
+object Loop{
 
   def main(args: Array[String]) {
 
@@ -11,7 +11,7 @@ object Loop1{
 
 
     //val rdd = spark.textFile("/home/Zhejing/Programs/Benchmarks/src/dataset/salaryEx.csv")
-    val rdd = spark.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/loop1.txt")
+    val rdd = spark.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/loop.txt")
 
     //..... many other code unrelated
 

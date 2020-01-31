@@ -8,13 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/Int1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/ExF.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/Int2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/loop1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/loop.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/IntOverflow1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ExternFun.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/IntOverflow1_faulty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/IntOverflow1_faulty.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/IntOverflow2.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/IntOverflow2_faulty.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Loop1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Loop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Loop1_faulty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Loop_faulty.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570479507614</updated>
-      <workItem from="1580502664421" duration="1589000" />
+      <workItem from="1580502664421" duration="2899000" />
     </task>
     <servers />
   </component>
