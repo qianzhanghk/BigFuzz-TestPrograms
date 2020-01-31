@@ -1,7 +1,7 @@
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object IntOverflow1{
+object ExternFun_faulty{
 
   def main(args: Array[String]) {
     val conf = new SparkConf()
@@ -10,7 +10,7 @@ object IntOverflow1{
 
     val sc = new SparkContext(conf)
 
-    val full_data_type_table = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/int1.txt")
+    val full_data_type_table = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/ExF.txt")
 
 
 
@@ -20,7 +20,7 @@ object IntOverflow1{
         val cols = s.split(",")
         (cols(0), cols(1))
     }
-      .filter( s => Integer.parseInt(s._2) > 0)
+      .filter( s => Integer.parseInt(s._2*16) > 0)
 
     locations.foreach(println)
 
