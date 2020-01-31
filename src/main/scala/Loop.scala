@@ -17,7 +17,7 @@ object Loop{
 
     val data = rdd.map{ s =>
       val a = s.split(",")
-      for (i <- 1 to a(3).toInt) { //for (i<-1 to 100) {
+      for (i <- 1 to 100) { //for (i<-1 to 100) {
         a(2) = (a(2).toFloat * (1 + a(4).toFloat)).toString
         a(5) = i.toString
         System.out.println(a(2))
@@ -26,8 +26,8 @@ object Loop{
         }
         System.out.println(a(6))
       }
-      a
-    }
+      (a(2),a(6))
+    }.filter(s=>s._1.toFloat>0)
 
 
     data.collect().foreach(println)
