@@ -26,8 +26,8 @@ object Loop{
         }
         System.out.println(a(6))
       }
-      a
-    }
+      (a(2),a(6))
+    }.filter(s=>s._1.toFloat>0)
 
 
     data.collect().foreach(println)

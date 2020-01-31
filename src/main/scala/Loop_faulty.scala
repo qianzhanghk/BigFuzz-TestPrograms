@@ -14,18 +14,21 @@ object Loop_faulty{
     val rdd = spark.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/loop.txt")
 
     //..... many other code unrelated
-
     val data = rdd.map{ s =>
       val a = s.split(",")
       for (i <- 1 to 100) { //for (i<-1 to 100) {
         a(2) = (a(2).toFloat * (1 + a(4).toFloat)).toString
-        a(9) = i.toString
+        a(5) = i.toString
+        System.out.println(a(2))
         if (a(2).toFloat>1000000000) {
           a(10) = "billionaire"
         }
+        System.out.println(a(6))
       }
-      a
-    }
+      (a(2),a(6))
+    }.filter(s=>s._1.toFloat>0)
+
+
 
 
     print(data)
