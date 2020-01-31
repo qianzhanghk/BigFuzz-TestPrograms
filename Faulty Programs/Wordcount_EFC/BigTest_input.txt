@@ -1,0 +1,46 @@
+Non - Terminating
+------------------------
+Paths :  0
+path constraint: {line_P1 = x0_P1 && s_P1 = x2_P1 && line_P2 = x0_P2 && s_P2 = x2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x4}	 effect: {x3_2_P1 = x6 select 0, x3_2_P2 = x6 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = s_P1, x3_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = s_P2, x3_2_P2 = 1, x4 = x6, x5 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/372469954.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P1 () String "")
+(define-fun line_P2 () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  1
+path constraint: {line_P1 = x0_P1 && s_P1 = x2_P1 && line_P2 = x0_P2 && s_P2 = x2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x4}	 effect: {x3_2_P1 = x6 select 0, x3_2_P2 = x6 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = s_P1, x3_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = s_P2, x3_2_P2 = 1, x4 = x6, x5 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1371376476.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P1 () String " ,")
+(define-fun line_P2 () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  2
+path constraint: {line_P1 = x0_P1 && s_P1 = x2_P1 && line_P2 = x0_P2 && s_P2 = x2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x4}	 effect: {x3_2_P1 = x6 select 0, x3_2_P2 = x6 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = s_P1, x3_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = s_P2, x3_2_P2 = 1, x4 = x6, x5 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/2068897588.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P1 () String "")
+(define-fun line_P2 () String " ,")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  3
+path constraint: {line_P1 = x0_P1 && s_P1 = x2_P1 && line_P2 = x0_P2 && s_P2 = x2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x4}	 effect: {x3_2_P1 = x6 select 0, x3_2_P2 = x6 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = s_P1, x3_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = s_P2, x3_2_P2 = 1, x4 = x6, x5 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/457247584.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P1 () String " ,")
+(define-fun line_P2 () String " ,")
+*******************************************************************************
+
+
+
+filter taken is not covered

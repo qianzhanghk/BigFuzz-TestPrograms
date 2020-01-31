@@ -31,7 +31,7 @@ object CommuteType{
         val cols = s.split(",")
         (cols(0), cols(1))
     }
-      .filter( s => s._2.equals("Culver City"))
+      .filter( s => s._2.equals("Palms"))
 
     locations.foreach(println)
 

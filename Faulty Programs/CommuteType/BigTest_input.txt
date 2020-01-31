@@ -1,0 +1,196 @@
+Paths :  0
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 <= 15 && s_t2_P1 <= 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 <= 15 && s_t2_P2 <= 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 350, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 350, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/208684473.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,6,3")
+(define-fun line1_P1 () String " ,, ,2,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+Paths :  1
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 > 15 && s_t2_P1 <= 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 <= 15 && s_t2_P2 <= 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 353, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 350, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/91323447.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,7,3")
+(define-fun line1_P1 () String " ,, ,28,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  2
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 > 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 <= 15 && s_t2_P2 <= 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 356, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 350, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/110053477.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,5,2")
+(define-fun line1_P1 () String " ,, ,41,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  3
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 <= 15 && s_t2_P1 <= 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 > 15 && s_t2_P2 <= 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 350, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 353, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1209411469.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,48,3")
+(define-fun line1_P1 () String " ,, ,2,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  4
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 > 15 && s_t2_P1 <= 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 > 15 && s_t2_P2 <= 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 353, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 353, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1320105604.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,48,3")
+(define-fun line1_P1 () String " ,, ,25,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  5
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 > 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 > 15 && s_t2_P2 <= 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 356, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 353, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1076984738.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,80,5")
+(define-fun line1_P1 () String " ,, ,41,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  6
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 <= 15 && s_t2_P1 <= 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 > 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 350, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 356, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1006751649.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,84,2")
+(define-fun line1_P1 () String " ,, ,3,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  7
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 > 15 && s_t2_P1 <= 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 > 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 353, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 356, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1171434979.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,86,2")
+(define-fun line1_P1 () String " ,, ,34,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  8
+path constraint: {line1_P1 splitn 4 , str.to.int  != 0 && line1_P1 splitn 4 , isinteger && line1_P1 splitn 3 , isinteger && line1_P1 = x0_P1 && line2_P1 = x2_P1 && v_t2_P1 equals Palms && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && x1_1_P1 = x4_1_P1 && s_t2_P1 > 40 && s_t3_P1 = x6_2_2_P1 && s_t1_P1 = x6_1_P1 && s_t2_P1 = x6_2_1_P1 && line1_P2 splitn 4 , str.to.int  != 0 && line1_P2 splitn 4 , isinteger && line1_P2 splitn 3 , isinteger && line1_P2 = x0_P2 && line2_P2 = x2_P2 && v_t2_P2 equals Palms && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && x1_1_P2 = x4_1_P2 && s_t2_P2 > 40 && s_t3_P2 = x6_2_2_P2 && s_t1_P2 = x6_1_P2 && s_t2_P2 = x6_2_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x8}	 effect: {x7_2_P1 = x10 select 0, x7_2_P2 = x10 select 1, x1_1_P1 = line1_P1 splitn 1 ,, x1_2_P1 = line1_P1 splitn 3 , str.to.int  / line1_P1 splitn 4 , str.to.int , x3_1_P1 = line2_P1 splitn 0 ,, x3_2_P1 = line2_P1 splitn 1 ,, x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x6_1_P1 = x1_1_P1, x6_2_1_P1 = x1_2_P1, x6_2_2_P1 = x4_2_P1, x7_1_P1 = 356, x7_2_P1 = 1, x1_1_P2 = line1_P2 splitn 1 ,, x1_2_P2 = line1_P2 splitn 3 , str.to.int  / line1_P2 splitn 4 , str.to.int , x3_1_P2 = line2_P2 splitn 0 ,, x3_2_P2 = line2_P2 splitn 1 ,, x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6_1_P2 = x1_1_P2, x6_2_1_P2 = x1_2_P2, x6_2_2_P2 = x4_2_P2, x7_1_P2 = 356, x7_2_P2 = 1, x8 = x10, x9 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1920907467.bt
+********** Satisfying Assigments **********************************************
+(define-fun line1_P2 () String " ,, ,87,2")
+(define-fun line1_P1 () String " ,, ,41,1")
+(define-fun line2_P2 () String ",Palms")
+(define-fun line2_P1 () String ",Palms")
+*******************************************************************************
+
+
+------------------------
+Terminating
+------------------------
+Paths :  9
+path constraint: {line1 splitn 4 , str.to.int  = 0}	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1073699113
+********** Satisfying Assigments **********************************************
+(define-fun line1 () String " , , , ,0")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  10
+path constraint: {line1 splitn 4 , notinteger}	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-2127570724
+********** Satisfying Assigments **********************************************
+(define-fun line1 () String " , , , ,")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  11
+path constraint: {1 > 0 && line1 equals }	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1991499598
+********** Satisfying Assigments **********************************************
+(define-fun line1 () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  12
+path constraint: {line1 splitn 3 , notinteger}	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1756826759
+********** Satisfying Assigments **********************************************
+(define-fun line1 () String " , , ,")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  13
+path constraint: {0 > 0 && line2 equals }	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-912241678
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  14
+path constraint: {v_t2 notequals Palms && v_t2 = x4_2 && v_t1 = x4_1 && line2 = x2}	 effect: {x3_1 = line2 splitn 0 ,, x3_2 = line2 splitn 1 ,, x4_1 = x3_1, x4_2 = x3_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-430221763
+********** Satisfying Assigments **********************************************
+(define-fun line2 () String ",")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  15
+path constraint: {line1 splitn 4 , str.to.int  != 0 && line1 splitn 4 , isinteger && line1 splitn 3 , isinteger && line1 = x0 && line2 = x2 && v_t2 equals Palms && v_t2 = x4_2 && v_t1 = x4_1 && x1_1 != x4_1}	 effect: {x1_1 = line1 splitn 1 ,, x1_2 = line1 splitn 3 , str.to.int  / line1 splitn 4 , str.to.int , x3_1 = line2 splitn 0 ,, x3_2 = line2 splitn 1 ,, x4_1 = x3_1, x4_2 = x3_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-893511179
+********** Satisfying Assigments **********************************************
+(define-fun line2 () String "A,Palms")
+(define-fun line1 () String " ,, ,2,1")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  16
+path constraint: {line1 splitn 4 , str.to.int  != 0 && line1 splitn 4 , isinteger && line1 splitn 3 , isinteger && line1 = x0 && line2 = x2 && v_t2 equals Palms && v_t2 = x4_2 && v_t1 = x4_1 && x1_1 != x4_1}	 effect: {x1_1 = line1 splitn 1 ,, x1_2 = line1 splitn 3 , str.to.int  / line1 splitn 4 , str.to.int , x3_1 = line2 splitn 0 ,, x3_2 = line2 splitn 1 ,, x4_1 = x3_1, x4_2 = x3_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-893511179
+********** Satisfying Assigments **********************************************
+(define-fun line2 () String "A,Palms")
+(define-fun line1 () String " ,, ,2,1")
+*******************************************************************************
+
+
+cannot find divide by zero
+
