@@ -31,6 +31,8 @@ object PathExplosion{
         }
       }
       (l, dis)
-    }.foreach(println)
+    }//.foreach(println)
+      .filter(m => m._2.equals(25))
+      .foreach(println)
   }
 }
