@@ -7,7 +7,7 @@ object TwoFlowzFaulty {
     conf.setAppName("2flowT")
     val sc = new SparkContext(conf)
 
-    val text = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/twoFlow.txt" )
+    val text = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/twoFlow.csv" )
 
     //    val text = lc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/income")
 
