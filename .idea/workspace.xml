@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataset/twoFlow.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TwoFlowzFaulty.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/OutUDF.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,19 +64,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dataset" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala" />
+      <recent name="$PROJECT_DIR$/src/dataset" />
       <recent name="$PROJECT_DIR$/src/dataset/words" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/dataset" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala" />
       <recent name="$PROJECT_DIR$/src/dataset/words" />
     </key>
@@ -164,6 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570479507614</updated>
       <workItem from="1580502664421" duration="9221000" />
+      <workItem from="1580756251905" duration="911000" />
     </task>
     <servers />
   </component>
@@ -171,102 +171,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1313" y="669" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1580502842663">
+    <state x="1313" y="669" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1580756534328">
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
-    <state x="1313" y="669" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1580502842663" />
+    <state x="1313" y="669" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1580756534328" />
+    <state x="1709" y="566" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580756530946">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1709" y="566" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1580756530946" />
+    <state x="1348" y="240" key="SettingsEditor" timestamp="1580756840891">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1348" y="240" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1580756840891" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Benchmarks:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Benchmarks</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
