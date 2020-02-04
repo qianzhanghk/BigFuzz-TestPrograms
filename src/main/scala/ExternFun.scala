@@ -1,6 +1,8 @@
 
 import org.apache.spark.{SparkConf, SparkContext}
 
+import scala.math.log
+
 object ExternFun{
 
   def main(args: Array[String]) {
@@ -10,19 +12,18 @@ object ExternFun{
 
     val sc = new SparkContext(conf)
 
-    val full_data_type_table = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/ExF.txt")
+    val textFile= sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/ExF.txt")
 
 
 
 
-    val locations = full_data_type_table.map {
-      s =>
-        val cols = s.split(",")
-        (cols(0), cols(1))
-    }
-      .filter( s => Integer.parseInt(s._2) > 0)
+    val wordCounts = textFile
+      .flatMap(line => line.split(" ")).map(word => (word, 1)).reduceByKey(2*_+_)
 
-    locations.foreach(println)
+      .filter{v =>
+        System.out.println(v._2)
+        val v1 = log(v._2)
+        v1>1}
 
 
   }
