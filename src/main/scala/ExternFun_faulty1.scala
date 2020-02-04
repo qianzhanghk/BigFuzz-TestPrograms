@@ -13,12 +13,11 @@ object ExternFun_faulty1{
     val sc = new SparkContext(conf)
 
     val textFile= sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/ExF.txt")
-,
 
 
 
     val wordCounts = textFile
-      .flatMap(line => line.split("")).map(word => (word, 1)).reduceByKey(2*_+_)
+      .flatMap(line => line.split(",")).map(word => (word, 1)).reduceByKey(2*_+_)
 
       .filter{v =>
         System.out.println(v._2)
