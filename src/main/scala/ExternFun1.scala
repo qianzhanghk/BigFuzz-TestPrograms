@@ -3,12 +3,12 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.math.log
 
-object ExternFun{
+object ExternFun1{
 
   def main(args: Array[String]) {
     val conf = new SparkConf()
     conf.setMaster("local")
-    conf.setAppName("Commute")
+    conf.setAppName("EXF")
 
     val sc = new SparkContext(conf)
 
@@ -18,7 +18,7 @@ object ExternFun{
 
 
     val wordCounts = textFile
-      .flatMap(line => line.split(" ")).map(word => (word, 1)).reduceByKey(2*_+_)
+      .flatMap(line => line.split(",")).map(word => (word, 1)).reduceByKey(2*_+_)
 
       .filter{v =>
         System.out.println(v._2)
