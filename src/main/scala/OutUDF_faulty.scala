@@ -1,16 +1,15 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-object OutUDF {
+object OutUDF_faulty {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
     conf.setMaster("local")
     conf.setAppName("2flowT")
     val sc = new SparkContext(conf)
-    val startTime = System.currentTimeMillis();
 
 
     val text = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/salary.csv")
-
+    //val text = sc.textFile("salary.csv")
     val data = text.map {
       s =>
         val cols = s.split(",")
@@ -30,9 +29,11 @@ object OutUDF {
         } else {
           (">65", s._3)
         }
-    }
+    }.collect().length
 
-    println("Time: " + (System.currentTimeMillis() - startTime))
-    assert(System.currentTimeMillis()-startTime > 0.1)
+    if (pair>7) {
+      System.out.println(pair)
+      assert(pair!=8)
+    }
   }
 }

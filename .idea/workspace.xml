@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ExternFun.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ExternFun.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ExternFun_faulty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ExternFun_faulty.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/OutUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OutUDF_faulty.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570479507614</updated>
       <workItem from="1580502664421" duration="9221000" />
-      <workItem from="1580756251905" duration="6804000" />
+      <workItem from="1580756251905" duration="7694000" />
     </task>
     <servers />
   </component>
