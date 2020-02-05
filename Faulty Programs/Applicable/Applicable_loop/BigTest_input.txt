@@ -1,0 +1,17 @@
+Non - Terminating
+------------------------
+Paths :  0
+path constraint: {s = x0 && v_t2 > 10 && v_t2 = x2_2 && v_t1 = x2_1}	 effect: {x1_1 = s, x1_2 = 1, x2_1 = x1_1, x2_2 = x1_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/350059321.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+Terminating
+------------------------
+Paths :  1
+path constraint: {v_t2 <= 10 && v_t2 = x2_2 && v_t1 = x2_1 && s = x0}	 effect: {x1_1 = s, x1_2 = 1, x2_1 = x1_1, x2_2 = x1_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-703376014
+********** Satisfying Assigments **********************************************
+*******************************************************************************
