@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OutUDF_faulty.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="175">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TwoFlowzFaulty.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="13" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -145,6 +145,18 @@
               <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
               <item name="Faulty Programs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="Faulty Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Applicable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="Faulty Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="NotApplicable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
@@ -425,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TwoFlowzFaulty.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/PathExplosion.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -448,8 +453,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OutUDF_faulty.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="175">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TwoFlowzFaulty.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="13" selection-end-line="33" />
         </state>
       </provider>
     </entry>
