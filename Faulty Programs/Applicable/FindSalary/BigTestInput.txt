@@ -1,0 +1,89 @@
+Non - Terminating
+------------------------
+Paths :  0
+path constraint: {line_P1 str.substr 0 1 notequals $ && line_P1 = x0_P1 && p_P1 isinteger && p_P1 = x2_P1 && r_P1 < 300 && r_P1 = x4_P1 && line_P2 str.substr 0 1 notequals $ && line_P2 = x0_P2 && p_P2 isinteger && p_P2 = x2_P2 && r_P2 < 300 && r_P2 = x4_P2 && a select 4 = [I@15b[4] && 4 >= 0 && 4 < [I@15b_length && a select 3 = [I@15b[3] && 3 >= 0 && 3 < [I@15b_length && a select 2 = [I@15b[2] && 2 >= 0 && 2 < [I@15b_length && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x4_P1 = x8 select 0, x4_P2 = x8 select 1, x1_P1 = line_P1, x2_P1 = x1_P1, x3_P1 = p_P1 str.to.int , x4_P1 = x3_P1, x1_P2 = line_P2, x2_P2 = x1_P2, x3_P2 = p_P2 str.to.int , x4_P2 = x3_P2, x6 = x8, x7 = [I@15b[4] + [I@15b[3] + [I@15b[2] + [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/196732636.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String "1")
+(define-fun line_P1 () String "2")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  1
+path constraint: {line_P1 str.substr 0 1 equals $ && line_P1 = x0_P1 && p_P1 isinteger && p_P1 = x2_P1 && r_P1 < 300 && r_P1 = x4_P1 && line_P2 str.substr 0 1 notequals $ && line_P2 = x0_P2 && p_P2 isinteger && p_P2 = x2_P2 && r_P2 < 300 && r_P2 = x4_P2 && a select 4 = [I@15b[4] && 4 >= 0 && 4 < [I@15b_length && a select 3 = [I@15b[3] && 3 >= 0 && 3 < [I@15b_length && a select 2 = [I@15b[2] && 2 >= 0 && 2 < [I@15b_length && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x4_P1 = x8 select 0, x4_P2 = x8 select 1, x1_P1 = line_P1 str.substr 1 6, x2_P1 = x1_P1, x3_P1 = p_P1 str.to.int , x4_P1 = x3_P1, x1_P2 = line_P2, x2_P2 = x1_P2, x3_P2 = p_P2 str.to.int , x4_P2 = x3_P2, x6 = x8, x7 = [I@15b[4] + [I@15b[3] + [I@15b[2] + [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1345401730.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String "1")
+(define-fun line_P1 () String "$2")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  2
+path constraint: {line_P1 str.substr 0 1 notequals $ && line_P1 = x0_P1 && p_P1 isinteger && p_P1 = x2_P1 && r_P1 < 300 && r_P1 = x4_P1 && line_P2 str.substr 0 1 equals $ && line_P2 = x0_P2 && p_P2 isinteger && p_P2 = x2_P2 && r_P2 < 300 && r_P2 = x4_P2 && a select 4 = [I@15b[4] && 4 >= 0 && 4 < [I@15b_length && a select 3 = [I@15b[3] && 3 >= 0 && 3 < [I@15b_length && a select 2 = [I@15b[2] && 2 >= 0 && 2 < [I@15b_length && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x4_P1 = x8 select 0, x4_P2 = x8 select 1, x1_P1 = line_P1, x2_P1 = x1_P1, x3_P1 = p_P1 str.to.int , x4_P1 = x3_P1, x1_P2 = line_P2 str.substr 1 6, x2_P2 = x1_P2, x3_P2 = p_P2 str.to.int , x4_P2 = x3_P2, x6 = x8, x7 = [I@15b[4] + [I@15b[3] + [I@15b[2] + [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/481511146.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String "$2")
+(define-fun line_P1 () String "1")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  3
+path constraint: {line_P1 str.substr 0 1 equals $ && line_P1 = x0_P1 && p_P1 isinteger && p_P1 = x2_P1 && r_P1 < 300 && r_P1 = x4_P1 && line_P2 str.substr 0 1 equals $ && line_P2 = x0_P2 && p_P2 isinteger && p_P2 = x2_P2 && r_P2 < 300 && r_P2 = x4_P2 && a select 4 = [I@15b[4] && 4 >= 0 && 4 < [I@15b_length && a select 3 = [I@15b[3] && 3 >= 0 && 3 < [I@15b_length && a select 2 = [I@15b[2] && 2 >= 0 && 2 < [I@15b_length && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x4_P1 = x8 select 0, x4_P2 = x8 select 1, x1_P1 = line_P1 str.substr 1 6, x2_P1 = x1_P1, x3_P1 = p_P1 str.to.int , x4_P1 = x3_P1, x1_P2 = line_P2 str.substr 1 6, x2_P2 = x1_P2, x3_P2 = p_P2 str.to.int , x4_P2 = x3_P2, x6 = x8, x7 = [I@15b[4] + [I@15b[3] + [I@15b[2] + [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1275143523.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String "$1")
+(define-fun line_P1 () String "$2")
+*******************************************************************************
+
+
+------------------------
+Terminating
+------------------------
+Paths :  4
+path constraint: {p notinteger && line str.substr 0 1 notequals $ && line = x0}	 effect: {x1 = line, x2 = x1} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/388363051
+********** Satisfying Assigments **********************************************
+(define-fun line () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  5
+path constraint: {p notinteger && line str.substr 0 1 equals $ && line = x0}	 effect: {x1 = line str.substr 1 6, x2 = x1} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1812266791
+********** Satisfying Assigments **********************************************
+(define-fun line () String "$")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  6
+path constraint: {r >= 300 && r = x4 && line str.substr 0 1 notequals $ && line = x0 && p isinteger && p = x2}	 effect: {x1 = line, x2 = x1, x3 = p str.to.int , x4 = x3} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/458622614
+********** Satisfying Assigments **********************************************
+(define-fun line () String "381")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  7
+path constraint: {r >= 300 && r = x4 && line str.substr 0 1 equals $ && line = x0 && p isinteger && p = x2}	 effect: {x1 = line str.substr 1 6, x2 = x1, x3 = p str.to.int , x4 = x3} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1307997379
+********** Satisfying Assigments **********************************************
+(define-fun line () String "$381")
+*******************************************************************************
+
+
+------------------------
+Total Test Generation Time : 3412 ms
+Total Solver Time : 1435 ms
+Total Constraint generation Time: 1977 ms

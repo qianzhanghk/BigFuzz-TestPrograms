@@ -1,0 +1,398 @@
+Non - Terminating
+------------------------
+Paths :  0
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1047478056.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  1
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1209411469.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  2
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1320105604.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  3
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1076984738.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  4
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1006751649.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  5
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1171434979.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  6
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1920907467.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  7
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/970535245.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  8
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/194481424.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  9
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1534755892.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  10
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1548081008.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  11
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/753321708.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  12
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/464400749.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  13
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/343563528.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  14
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1719072416.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  15
+path constraint: {line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6 && v_t2 > 40 && v_t2 = x9_2 && v_t1 = x9_1}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/2092801316.bt
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+Terminating
+------------------------
+Paths :  16
+path constraint: {l splitn 1 : notinteger && line = x0}	 effect: {x1 = line splitn 0 ,, x2 = x1} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/931991410
+********** Satisfying Assigments **********************************************
+(define-fun line () String "")
+(define-fun line0 () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  17
+path constraint: {0 > 0 && l equals  && line = x0}	 effect: {x1 = line splitn 0 ,, x2 = x1} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/981789646
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  18
+path constraint: {l splitn 1 : notinteger && line = x0}	 effect: {x1 = line splitn 1 ,, x2 = x1} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-947851684
+********** Satisfying Assigments **********************************************
+(define-fun line () String " ,")
+(define-fun line1 () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  19
+path constraint: {0 > 0 && l equals  && line = x0}	 effect: {x1 = line splitn 1 ,, x2 = x1} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/772916324
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  20
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/366152417
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String ":1")
+(define-fun line_P20 () String ":1")
+(define-fun line_P1 () String ":2")
+(define-fun line_P10 () String ":2")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  21
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-341276833
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String ":5")
+(define-fun line_P20 () String ":5")
+(define-fun line_P1 () String ":46")
+(define-fun line_P10 () String ":46")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  22
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1862376410
+********** Satisfying Assigments **********************************************
+(define-fun line_P11 () String ":2")
+(define-fun line_P2 () String ":1")
+(define-fun line_P20 () String ":1")
+(define-fun line_P1 () String " ,:2")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  23
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1105854343
+********** Satisfying Assigments **********************************************
+(define-fun line_P11 () String ":46")
+(define-fun line_P2 () String ":5")
+(define-fun line_P20 () String ":5")
+(define-fun line_P1 () String " ,:46")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  24
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1301109453
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String ":46")
+(define-fun line_P20 () String ":46")
+(define-fun line_P1 () String ":5")
+(define-fun line_P10 () String ":5")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  25
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/659514767
+********** Satisfying Assigments **********************************************
+(define-fun line_P2 () String ":56")
+(define-fun line_P20 () String ":56")
+(define-fun line_P1 () String ":47")
+(define-fun line_P10 () String ":47")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  26
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-346682342
+********** Satisfying Assigments **********************************************
+(define-fun line_P11 () String ":5")
+(define-fun line_P2 () String ":46")
+(define-fun line_P20 () String ":46")
+(define-fun line_P1 () String " ,:5")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  27
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 0 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-11700107
+********** Satisfying Assigments **********************************************
+(define-fun line_P11 () String ":47")
+(define-fun line_P2 () String ":56")
+(define-fun line_P20 () String ":56")
+(define-fun line_P1 () String " ,:47")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  28
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-313532300
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":1")
+(define-fun line_P2 () String " ,:1")
+(define-fun line_P1 () String ":2")
+(define-fun line_P10 () String ":2")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  29
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1762090317
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":5")
+(define-fun line_P2 () String " ,:5")
+(define-fun line_P1 () String ":46")
+(define-fun line_P10 () String ":46")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  30
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/378316110
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":1")
+(define-fun line_P11 () String ":2")
+(define-fun line_P2 () String " ,:1")
+(define-fun line_P1 () String " ,:2")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  31
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 <= 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Fail, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1638646984
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":5")
+(define-fun line_P11 () String ":46")
+(define-fun line_P2 () String " ,:5")
+(define-fun line_P1 () String " ,:46")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  32
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-725240064
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":46")
+(define-fun line_P2 () String " ,:46")
+(define-fun line_P1 () String ":5")
+(define-fun line_P10 () String ":5")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  33
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 0 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1788252656
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":56")
+(define-fun line_P2 () String " ,:56")
+(define-fun line_P1 () String ":47")
+(define-fun line_P10 () String ":47")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  34
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 <= 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Fail, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/17521303
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":46")
+(define-fun line_P11 () String ":5")
+(define-fun line_P2 () String " ,:46")
+(define-fun line_P1 () String " ,:5")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  35
+path constraint: {v_t2 <= 40 && v_t2 = x9_2 && v_t1 = x9_1 && line_P1 = x0_P1 && l_P1 splitn 1 : isinteger && l_P1 = x2_P1 && a_t2_P1 > 40 && a_t1_P1 = x4_1_P1 && a_t2_P1 = x4_2_P1 && line_P2 = x0_P2 && l_P2 splitn 1 : isinteger && l_P2 = x2_P2 && a_t2_P2 > 40 && a_t1_P2 = x4_1_P2 && a_t2_P2 = x4_2_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x5_2_P1 = x8 select 0, x5_2_P2 = x8 select 1, x1_P1 = line_P1 splitn 1 ,, x2_P1 = x1_P1, x3_1_P1 = l_P1 splitn 0 :, x3_2_P1 = l_P1 splitn 1 : str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x5_1_P1 = a_t1_P1 str.++  Pass, x5_2_P1 = 1, x1_P2 = line_P2 splitn 1 ,, x2_P2 = x1_P2, x3_1_P2 = l_P2 splitn 0 :, x3_2_P2 = l_P2 splitn 1 : str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x5_1_P2 = a_t1_P2 str.++  Pass, x5_2_P2 = 1, x6 = x8, x7 = [I@15b[1] + [I@15b[0], x9_1 = x5_1, x9_2 = x7} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1172206234
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String ":56")
+(define-fun line_P11 () String ":47")
+(define-fun line_P2 () String " ,:56")
+(define-fun line_P1 () String " ,:47")
+*******************************************************************************
+
+
+------------------------
+Total Test Generation Time : 4829 ms
+Total Solver Time : 3386 ms
+Total Constraint generation Time: 1443 ms
+

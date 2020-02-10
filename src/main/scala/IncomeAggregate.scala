@@ -17,9 +17,9 @@ object IncomeAggregate  {
 //    val lc = new LineageContext(sc)
 //    lc.setCaptureLineage(true)
 
-    val text = sc.textFile(args(0))
+//    val text = sc.textFile(args(0))
 
-//    val text = lc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/income")
+    val text = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/income")
 
     val data = text.map {
       s =>
@@ -40,15 +40,17 @@ object IncomeAggregate  {
       } else {
         (">65", s._3)
       }
-    }
+    }//.reduceByKey(_+_).foreach(println)
 
-    val sum = pair.mapValues( x => (x, 1)).reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
-//        .mapValues(x => (x._2, x._1.toDouble / x._2.toDouble)).collect()
-      .mapValues(x => x._1.toDouble / x._2.toDouble).collect()
-//        .foreach(println)
+    val sum = pair.mapValues( x => (x, 1))
+      .reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
+      .mapValues(x => (x._2, x._1.toDouble / x._2.toDouble))
+      .foreach(println)
+
+
 //    println("Time: " + (System.currentTimeMillis() - startTime))
 
-    println(sum.getClass().getName())
+//    println(sum.getClass().getName())
 //    lc.setCaptureLineage(false)
 
 //    val linRDD = sum.getLineage()

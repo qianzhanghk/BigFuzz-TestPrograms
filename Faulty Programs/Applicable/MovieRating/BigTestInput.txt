@@ -1,0 +1,83 @@
+Non - Terminating
+------------------------
+Paths :  0
+path constraint: {line_P1 = x0_P1 && a_t2_P1 isinteger && a_t1_P1 = x2_1_P1 && a_t2_P1 = x2_2_P1 && v_t2_P1 > 4 && v_t2_P1 = x4_2_P1 && v_t1_P1 = x4_1_P1 && line_P2 = x0_P2 && a_t2_P2 isinteger && a_t1_P2 = x2_1_P2 && a_t2_P2 = x2_2_P2 && v_t2_P2 > 4 && v_t2_P2 = x4_2_P2 && v_t1_P2 = x4_1_P2 && a select 1 = [I@15b[1] && 1 >= 0 && 1 < [I@15b_length && a select 0 = [I@15b[0] && 0 >= 0 && 0 < [I@15b_length && [I@15b_length >= 0 && a = x6}	 effect: {x4_2_P1 = x8 select 0, x4_2_P2 = x8 select 1, x1_1_P1 = line_P1 splitn 0 :, x1_2_P1 = line_P1 splitn 1 : splitn 0 , splitn 1 _ str.substr 0 1, x2_1_P1 = x1_1_P1, x2_2_P1 = x1_2_P1, x3_1_P1 = a_t1_P1, x3_2_P1 = a_t2_P1 str.to.int , x4_1_P1 = x3_1_P1, x4_2_P1 = x3_2_P1, x1_1_P2 = line_P2 splitn 0 :, x1_2_P2 = line_P2 splitn 1 : splitn 0 , splitn 1 _ str.substr 0 1, x2_1_P2 = x1_1_P2, x2_2_P2 = x1_2_P2, x3_1_P2 = a_t1_P2, x3_2_P2 = a_t2_P2 str.to.int , x4_1_P2 = x3_1_P2, x4_2_P2 = x3_2_P2, x6 = x8, x7 = [I@15b[1] + [I@15b[0]} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/330551672.bt
+********** Satisfying Assigments **********************************************
+(define-fun line_P21 () String " _6")
+(define-fun line_P11 () String " _5")
+(define-fun line_P110 () String " _5")
+(define-fun line_P2101 () String "6")
+(define-fun line_P210 () String " _6")
+(define-fun line_P2 () String ": _6")
+(define-fun line_P20 () String "")
+(define-fun line_P1 () String ": _5")
+(define-fun line_P10 () String "")
+(define-fun line_P1101 () String "5")
+*******************************************************************************
+
+
+------------------------
+Terminating
+------------------------
+Paths :  1
+path constraint: {0 > 0 && line equals }	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/423094195
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  2
+path constraint: {0 > 0 && line splitn 1 : equals }	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-22165500
+********** Satisfying Assigments **********************************************
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  3
+path constraint: {1 > 0 && line splitn 1 : splitn 0 , equals }	 effect: {} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/1833103409
+********** Satisfying Assigments **********************************************
+(define-fun line () String " :")
+(define-fun line10 () String "")
+(define-fun line1 () String "")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  4
+path constraint: {a_t2 notinteger && line = x0}	 effect: {x1_1 = line splitn 0 :, x1_2 = line splitn 1 : splitn 0 , splitn 1 _ str.substr 0 1, x2_1 = x1_1, x2_2 = x1_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/-1579843700
+********** Satisfying Assigments **********************************************
+(define-fun line () String ": _")
+(define-fun line10 () String " _")
+(define-fun line101 () String "")
+(define-fun line0 () String "")
+(define-fun line1 () String " _")
+*******************************************************************************
+
+
+------------------------
+------------------------
+Paths :  5
+path constraint: {v_t2 <= 4 && v_t2 = x4_2 && v_t1 = x4_1 && line = x0 && a_t2 isinteger && a_t1 = x2_1 && a_t2 = x2_2}	 effect: {x1_1 = line splitn 0 :, x1_2 = line splitn 1 : splitn 0 , splitn 1 _ str.substr 0 1, x2_1 = x1_1, x2_2 = x1_2, x3_1 = a_t1, x3_2 = a_t2 str.to.int , x4_1 = x3_1, x4_2 = x3_2} ---------
+run z3 for file /home/qzhang/Downloads/cvc4-1.7-x86_64-linux-opt --strings-exp --lang smt2 < /tmp/68974313
+********** Satisfying Assigments **********************************************
+(define-fun line101 () String "1")
+(define-fun line0 () String "")
+(define-fun line () String ": _1")
+(define-fun line10 () String " _1")
+(define-fun line1 () String " _1")
+*******************************************************************************
+
+
+------------------------
+Total Test Generation Time : 1527 ms
+Total Solver Time : 173 ms
+Total Constraint generation Time: 1354 ms
+
