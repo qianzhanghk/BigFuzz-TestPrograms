@@ -1,8 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by malig on 4/10/18.
-  */
+
 object MovieRating{
 
   def main(args: Array[String]): Unit = {
@@ -10,39 +8,28 @@ object MovieRating{
     val conf = new SparkConf()
     conf.setMaster("local[*]")
     conf.setAppName("Movie")
-    val data1 = Array(" : _5",
-      "",
-      " :",
-      ": _",
-      ": _0")
 
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
-    for (i <- 0 to data1.length - 1) {
-      try {
-        val averageRating = sc
-          .parallelize(Array(data1(i)))
-          .map { line =>
-            val arr = line.split(":")
-            val movie_str = arr(0)
-            val ratings = arr(1).split(",")(0).split("_")(1)
-            (movie_str, ratings.substring(0, 1))
-          }
-          .map { c =>
-            val str = c._1
-            (str, Integer.parseInt(c._2))
-          }
-          .filter { b =>
-            val t1 = b._1
-            val t2 = b._2
-            t2 > 4
-          }.reduceByKey(_ + _).collect().foreach(println)
+
+    val text = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/movie.csv")
+    val rates = text.map { line =>
+        val arr = line.split(":")
+        val movie_str = arr(0)
+        val ratings = arr(1).split(",")(0).split("_")(1)
+        (movie_str, ratings.substring(0, 1))
       }
-      catch {
-        case e: Exception =>
-          e.printStackTrace()
+      .map { a =>
+        val str = a._1
+        (a._1, Integer.parseInt(a._2))
       }
-    }
+      .filter { v =>
+        val tw = v._1
+        v._2 > 4
+      }.reduceByKey(_ + _)
+      .collect
+      .foreach(println)
+
     println("Time: " + (System.currentTimeMillis() - startTime))
   }
 }
