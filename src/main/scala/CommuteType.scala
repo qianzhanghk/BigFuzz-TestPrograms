@@ -3,6 +3,7 @@
   * Modified by Qian on 10/07/2019
   */
 
+import math.log10
 import org.apache.spark.{SparkConf, SparkContext}
 
 object CommuteType{
@@ -15,8 +16,8 @@ object CommuteType{
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
 
-    val data_trip = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/trips.csv")
-    val data_zipcode = sc.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/zipcode.csv")
+    val data_trip = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/trips.csv")
+    val data_zipcode = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/zipcode.csv")
 
     val trips = data_trip.map {
       s =>
@@ -40,12 +41,12 @@ object CommuteType{
 
     joined.map { s =>
       // Checking if speed is < 25mi/hr
-      if (s._2._1 > 40) {
+      if (log10(s._2._1) > 40) {
         ("car", 1)
-      } else if (s._2._1 > 15) {
+      } else if (log10(s._2._1) > 15) {
         ("public", 1)
       } else {
-        ("onfoot", 1)
+        ("walk", 1)
       }
     }
       .reduceByKey(_ + _)
