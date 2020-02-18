@@ -11,23 +11,19 @@ object Loop{
 
 
     //val rdd = spark.textFile("/home/Zhejing/Programs/Benchmarks/src/dataset/salaryEx.csv")
-    val rdd = spark.textFile("/home/qzhang/Programs/Benchmarks/src/dataset/loop.txt")
+    val rdd = spark.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/loop.txt")
 
     //..... many other code unrelated
 
     val data = rdd.map{ s =>
       val a = s.split(",")
-      for (i <- 1 to 100) { //for (i<-1 to 100) {
-        a(2) = (a(2).toFloat * (1 + a(4).toFloat)).toString
-        a(5) = i.toString
-        System.out.println(a(2))
-        if (a(2).toFloat>1000000000) {
-          a(6) = "billionaire"
-        }
-        System.out.println(a(6))
+      for (i <- 1 to a(2).toInt) { //for (i<-1 to 100) {
+        a(1) = (a(1).toFloat * (1 + a(3).toFloat)).toString
       }
-      (a(2),a(6))
-    }.filter(s=>s._1.toFloat>0)
+      (a(0), a(1).toFloat)
+    }.filter(l=>l._2>1000000000)
+      .map(t=> (t._1,1))
+        .reduceByKey(_+_)
 
 
     data.collect().foreach(println)

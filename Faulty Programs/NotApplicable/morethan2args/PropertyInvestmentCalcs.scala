@@ -1,6 +1,3 @@
-/*
-  This programs takes more than 2 args, which is inapplicable to BigTest
- */
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
