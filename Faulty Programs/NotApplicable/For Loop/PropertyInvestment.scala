@@ -42,3 +42,11 @@ object PropertyInvestment{
     spark.stop()
   }
 }
+
+
+map4>","
+filter3>"",1.0
+reduceByKey1> {1,2,3,4}
+map2>"",1.0
+DAG >reduceByKey1-map2:map2-filter3:filter3-map4
+K_BOUND>2

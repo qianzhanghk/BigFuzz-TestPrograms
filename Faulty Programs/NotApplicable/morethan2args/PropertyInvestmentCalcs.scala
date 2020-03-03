@@ -38,4 +38,11 @@ object PropertyInvestmentCalcs {
   }
 }
 
+
+map1>"",1.0,1,1.0
+filter2>"",1.0,1,1.0
+map3>"",1.0,1,1.0
+map4>","
+DAG>map1-filter2:filter2-map3:map3-map4
+
 //https://stackoverflow.com/questions/36863110/spark-scala-testing-reading-from-text-file-generating-additional-output-and-w

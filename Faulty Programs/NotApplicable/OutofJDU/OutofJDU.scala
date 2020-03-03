@@ -19,6 +19,7 @@
         }
     }.collect().length
 
+///some spec-based functions
     if (pair>7) {
       System.out.println(pair)
       assert(pair!=8)
@@ -26,8 +27,7 @@
 
 
 
-filter1 > 1,1
-map2 > 1
+filter2 > 1,1,1
+map1 > 1,1,1
 map3 > "1,"
-DAG >filter1-map2:map2-map3
-K_BOUND>2
+DAG >map1-filter2:filter2-map3

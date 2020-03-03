@@ -20,3 +20,8 @@
     }
 
 
+map1 > "",1,1
+filter2 > "90024",1,1
+map3 >","
+DAG >map1-filter2:filter2-map3
+
