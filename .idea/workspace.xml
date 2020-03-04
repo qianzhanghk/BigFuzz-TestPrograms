@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faulty Programs/NotApplicable/ExternalUDF/ExternalUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Faulty Programs/NotApplicable/ExternalUDF/ExternalUDF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faulty Programs/NotApplicable/Loop/PropertyInvestment.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faulty Programs/NotApplicable/OutofJDU/OutofJDU.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Faulty Programs/NotApplicable/OutofJDU/OutofJDU.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faulty Programs/NotApplicable/TwoFlows/TwoFlows.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Faulty Programs/NotApplicable/TwoFlows/TwoFlows.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faulty Programs/NotApplicable/morethan2args/PropertyInvestmentCalcs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Faulty Programs/NotApplicable/morethan2args/PropertyInvestmentCalcs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Loop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Loop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Loop$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Loop$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Loop$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Loop$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Loop$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Loop$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Loop$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Loop$.class" afterDir="false" />
-    </list>
+    <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/PathExplosion.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -88,11 +76,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ExternFun1.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="271">
+              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -515,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="21" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MovieRating.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -654,6 +635,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

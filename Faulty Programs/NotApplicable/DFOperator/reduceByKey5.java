@@ -1,4 +1,4 @@
-public class reduceByKey4 { 
+public class reduceByKey5 { 
    public static void main(String[] args) { 
        int[] arr = ;
        applyReduce(arr);
@@ -10,8 +10,8 @@ public class reduceByKey4 {
    }
    return s;
 }
- static final reduceByKey4 apply(int x_t1, int x_t2,int y_t1, int y_t2){
-  return new scala.reduceByKey4.mcII.sp(x_t1 + y_t1(),x_t2 + y_t2);
+ static final reduceByKey5 apply(int x_t1, int x_t2,int y_t1, int y_t2){
+  return new scala.reduceByKey5.mcII.sp(x_t1 + y_t1(),x_t2 + y_t2);
 }
 String sa,sb;
 
@@ -22,19 +22,19 @@ public int _1(){
 public int _2(){
 	return ib;
 }
-public reduceByKey4(int k, int v){
+public reduceByKey5(int k, int v){
         ia = k;
         ib = v;
 }
-public reduceByKey4(String k, int v){
+public reduceByKey5(String k, int v){
         sa = k;
         ib = v;
 }
-public reduceByKey4(int k, String v){
+public reduceByKey5(int k, String v){
         ia = k;
         sb = v;
 }
-public reduceByKey4(String k, String v){
+public reduceByKey5(String k, String v){
         sa = k;
         sb = v;
 }}
