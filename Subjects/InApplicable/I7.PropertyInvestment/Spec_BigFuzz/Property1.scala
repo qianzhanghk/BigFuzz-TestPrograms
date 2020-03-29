@@ -1,9 +1,7 @@
-package edu.ucla.cs.bigfuzz.sparkprogram
-
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object PropertyInvestment{
+object Property1{
 
   def main(args: Array[String]) {
 
@@ -17,23 +15,15 @@ object PropertyInvestment{
     val data = rdd.map{ s=>
       val a = s.split(",")
       (a(2).toFloat,Integer.parseInt(a(3)),a(4).toFloat,a(6))
-    }.
-      map{s=>
+    }.map{s=>
         var a = s._1
-      for (i<-1 to s._2) {
+var i=1-1
+while (i<s._2){
+i=i+1
         a = a *(1+s._3)
       }
         (a,s._2,s._3,s._4)
-    }.filter(s=>s._1>0)
-      .map(s=>
-        if (s._1<1000000000)
-          {
-            System.out.println(s._1,s._4)
-          }
-        else{
-          System.out.println(Integer.parseInt(s._1.toString),s._4,"billionaire")
-        }
-      )
+    }
 
 
 
@@ -42,11 +32,3 @@ object PropertyInvestment{
     spark.stop()
   }
 }
-
-
-map4>","
-filter3>"",1.0
-reduceByKey1> {1,2,3,4}
-map2>"",1.0
-DAG >reduceByKey1-map2:map2-filter3:filter3-map4
-K_BOUND>2
