@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.FindSalary;
+
 
 import edu.ucla.cs.bigfuzz.customarray.applicable.FindSalary.FindSalaryCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

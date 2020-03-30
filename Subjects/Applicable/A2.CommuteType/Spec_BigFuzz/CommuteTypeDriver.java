@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.CommuteType;
+
 
 import edu.berkeley.cs.jqf.fuzz.Fuzz;
 import edu.berkeley.cs.jqf.fuzz.JQF;

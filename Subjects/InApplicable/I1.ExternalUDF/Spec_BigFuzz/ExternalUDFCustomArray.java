@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.inapplicable.ExternalUDF;
+
 
 import edu.berkeley.cs.jqf.instrument.tracing.TraceLogger;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.CommuteType;
+
 
 public class join6 {
     String s1, s2;

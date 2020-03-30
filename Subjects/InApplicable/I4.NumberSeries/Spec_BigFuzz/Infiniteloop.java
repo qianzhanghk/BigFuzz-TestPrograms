@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.inapplicable.SymbolicStateOutofBounds;
+
 
 import edu.ucla.cs.bigfuzz.customarray.inapplicable.SymbolicStateOutofBounds.InfiniteloopCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

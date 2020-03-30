@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.inapplicable.Property;
+
 
 import edu.berkeley.cs.jqf.instrument.tracing.TraceLogger;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;
@@ -7,7 +7,8 @@ import janala.logger.inst.METHOD_BEGIN;
 import janala.logger.inst.MemberRef;
 import scala.Tuple4;
 
-import java.util.*;public class PropertyCustomArray {
+import java.util.*;
+public class PropertyCustomArray {
 
     private ArrayList<Object> list;
 

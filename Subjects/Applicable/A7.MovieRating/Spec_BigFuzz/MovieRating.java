@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.MovieRating;
+
 
 import edu.ucla.cs.bigfuzz.customarray.applicable.MovieRating.MovieRatingCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

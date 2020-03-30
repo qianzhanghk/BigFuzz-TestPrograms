@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.inapplicable.OutofJDU;
+
 
 import edu.ucla.cs.bigfuzz.customarray.inapplicable.OutofJDU.OutofJDUCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

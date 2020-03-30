@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.inapplicable.DFOperator;
+
 
 import edu.ucla.cs.bigfuzz.customarray.inapplicable.DFOperator.DFOperatorCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

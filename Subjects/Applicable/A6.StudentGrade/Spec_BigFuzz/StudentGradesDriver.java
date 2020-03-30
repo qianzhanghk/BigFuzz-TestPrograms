@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.StudentGrades;
+
 
 import edu.berkeley.cs.jqf.fuzz.Fuzz;
 import edu.berkeley.cs.jqf.fuzz.JQF;

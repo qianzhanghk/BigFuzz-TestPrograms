@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.WordCount;
+
 
 public class mapToPair2 {
    public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.StudentGrades;
+
 
 import edu.ucla.cs.bigfuzz.customarray.applicable.StudentGrades.StudentGradesCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

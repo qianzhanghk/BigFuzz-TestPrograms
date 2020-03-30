@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.CommuteType;
+
 
 import edu.ucla.cs.bigfuzz.customarray.applicable.CommuteType.*;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;

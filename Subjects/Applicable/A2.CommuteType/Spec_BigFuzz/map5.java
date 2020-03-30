@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.CommuteType;
+
 
 public class map5 {
    public static void main(String[] args) { 

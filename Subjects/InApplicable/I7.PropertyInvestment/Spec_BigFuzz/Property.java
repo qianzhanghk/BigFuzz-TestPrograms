@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.inapplicable.Property;
+
 
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;
 import scala.Tuple4;
