@@ -14,6 +14,7 @@ object FindSalary {
     val salary = text.map {
         line =>
           if (line.substring(0, 1).equals("$")) {
+            System.out.println(line.size)
             var i = line.substring(1, 6)
             i
           } else {

@@ -16,7 +16,7 @@ object StudentGrades{
 
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
-    val text = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/studentGrades/part-00000")
+    val text = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/student1.csv")
 
     val map1 = text.flatMap { line =>
       val arr = line.split(",")

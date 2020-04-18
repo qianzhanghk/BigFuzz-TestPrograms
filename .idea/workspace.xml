@@ -8,84 +8,30 @@
   <component name="ChangeListManager">
     <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCountCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCountCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCountDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/flatMap3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/mapToPair2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/mapToPair2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/reduceByKey1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteTypeCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteTypeCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteTypeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteTypeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/filter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/join6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/join6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/reduceByKey4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/PropertyCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/PropertyCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/PropertyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/PropertyDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalaryCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalaryCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/filter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/map4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/reduce1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/reduce1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGradesCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGradesCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGradesDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGradesDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/flatMap5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/flatMap5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/map4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/reduceByKey2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/reduceByKey2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRatingCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRatingCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRatingDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRatingDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/map4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/reduceByKey1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/ExternalUDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/ExternalUDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/ExternalUDFCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/ExternalUDFCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/ExternalUDFDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/ExternalUDFDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/Inside.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/Inside.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/filter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I1.ExternalUDF/Spec_BigFuzz/map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/OneDFOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/OneDFOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/OneDFOperatorCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/OneDFOperatorCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/OneDFOperatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/OneDFOperatorDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I2.OneDF/Spec_BigFuzz/map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDU.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDUCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDUCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDUDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDUDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/filter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/Infiniteloop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/Infiniteloop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/InfiniteloopCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/InfiniteloopCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/InfiniteloopDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/InfiniteloopDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/filter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlowsCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlowsCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlowsDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlowsDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/filter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperatorCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperatorCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperatorDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/filter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/map2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/mapValues101.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/mapValues101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/mapValues102.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/mapValues102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/reduceByKey4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/PropertyCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/PropertyCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/PropertyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/PropertyDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataset/movie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/movie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataset/student1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/student1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataset/trips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/trips.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataset/words/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/words/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataset/zipcode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/zipcode.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/CommuteType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/CommuteType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/FindSalary.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/FindSalary.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/PathExplosion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PathExplosion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +47,70 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/CommuteType.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MovieRating.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/OutUDF_faulty.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset/zipcode.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset/trips.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,6 +129,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/PathExplosion.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/dataset/words/input" />
+        <option value="$PROJECT_DIR$/src/dataset/number.csv" />
+        <option value="$PROJECT_DIR$/src/main/scala/FindSalary.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" />
+        <option value="$PROJECT_DIR$/src/dataset/student1.csv" />
+        <option value="$PROJECT_DIR$/src/dataset/movie.csv" />
+        <option value="$PROJECT_DIR$/src/main/scala/CommuteType.scala" />
+        <option value="$PROJECT_DIR$/src/dataset/trips.csv" />
+        <option value="$PROJECT_DIR$/src/dataset/zipcode.csv" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -131,7 +158,64 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="116" />
+    <option name="y" value="150" />
+    <option name="width" value="1717" />
+    <option name="height" value="1019" />
+  </component>
   <component name="ProjectId" id="1XAxNwiQoBCElpy4mXcLfTu2QRg" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="words" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -140,7 +224,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Subjects/InApplicable/TwoFlows/Spec_BigFuzz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WordCountScala" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -162,7 +246,19 @@
       <recent name="$PROJECT_DIR$/Subjects/InApplicable/For Loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Loop">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CommuteType">
     <configuration name="CommuteType" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="CommuteType" />
       <module name="Benchmarks" />
@@ -177,47 +273,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loop" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Loop" />
+    <configuration name="MovieRating" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MovieRating" />
       <module name="Benchmarks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyInvestmentCalcs (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="PropertyInvestmentCalcs" />
+    <configuration name="StudentGrades" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="StudentGrades" />
       <module name="Benchmarks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyInvestmentCalcs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.sparkprogram.PropertyInvestmentCalcs" />
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="WordCount" />
       <module name="Benchmarks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ucla.cs.bigfuzz.sparkprogram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.CommuteType" />
       <item itemvalue="Application.FindSalary" />
-      <item itemvalue="Application.Loop" />
-      <item itemvalue="Application.PropertyInvestmentCalcs (1)" />
-      <item itemvalue="Application.PropertyInvestmentCalcs" />
+      <item itemvalue="Application.StudentGrades" />
+      <item itemvalue="Application.MovieRating" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Loop" />
-        <item itemvalue="Application.PropertyInvestmentCalcs (1)" />
-        <item itemvalue="Application.PropertyInvestmentCalcs" />
-        <item itemvalue="Application.FindSalary" />
         <item itemvalue="Application.CommuteType" />
+        <item itemvalue="Application.MovieRating" />
+        <item itemvalue="Application.StudentGrades" />
+        <item itemvalue="Application.FindSalary" />
+        <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +341,38 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28471476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36009175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32912844" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -281,5 +403,126 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PathExplosion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/words/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/number.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FindSalary.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/student.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/student1.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/StudentGrades.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/movie.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/trips.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MovieRating.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OutUDF_faulty.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/zipcode.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CommuteType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

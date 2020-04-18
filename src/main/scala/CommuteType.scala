@@ -24,7 +24,7 @@ object CommuteType{
         val cols = s.split(",")
         (cols(1), Integer.parseInt(cols(3)) / Integer.parseInt(cols(4)))
     }
-
+    System.out.println("Trips:")
     trips.foreach(println)
 
     val locations = data_zipcode.map {
@@ -34,22 +34,23 @@ object CommuteType{
     }
       .filter( s => s._2.equals("Palms"))
 
+    System.out.println("Locations:")
     locations.foreach(println)
 
     val joined = trips.join(locations)
+    System.out.println("Joined: " + joined.count())
     joined.foreach(println)
 
     joined.map { s =>
       // Checking if speed is < 25mi/hr
-      if (log10(s._2._1) > 40) {
+      if (s._2._1 > 40) {
         ("car", 1)
-      } else if (log10(s._2._1) > 15) {
+      } else if (s._2._1 > 15) {
         ("public", 1)
       } else {
         ("walk", 1)
       }
-    }
-      .reduceByKey(_ + _)
+    }.reduceByKey(_ + _)
       .collect
       .foreach(println)
     println("Job Finished")

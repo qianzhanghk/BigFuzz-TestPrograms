@@ -10,7 +10,7 @@ object WordCount  {
     conf.setMaster("local[4]")
     conf.setAppName("Wordcount")
 
-    val logFile = "/home/qzhang/Programs/Benchmarks/src/dataset/words/input"
+    val logFile = "/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/words/input"
 
     val sc = new SparkContext(conf)
 //    val lc = new LineageContext(sc)
@@ -34,7 +34,7 @@ object WordCount  {
 
     val counts = file.flatMap(line => line.split(","))
       .map(w => (w,1))
-      .reduceByKey(_+_)
+//      .reduceByKey(2147483600*_+_)
       .filter{ v =>
         val v1 = log10(v._2)
         v1 > 1
