@@ -1,0 +1,3 @@
+No invalid seed
+
+=> no need to run I2 with invalid seed

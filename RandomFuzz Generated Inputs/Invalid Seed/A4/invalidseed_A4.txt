@@ -1,0 +1,6 @@
+10@0
+2000
+
+
+semantic: 
+salary [integer]

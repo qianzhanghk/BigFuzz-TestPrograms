@@ -1,0 +1,1 @@
+RandomFuzz cannot run directly for multipe inputs

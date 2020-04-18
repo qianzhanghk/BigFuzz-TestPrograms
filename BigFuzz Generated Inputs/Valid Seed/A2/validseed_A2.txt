@@ -1,0 +1,14 @@
+trips:
+1,100,10000,1,15
+2,20,500,2,5
+
+zipcode:
+91000,A
+90001,B
+
+semantic: 
+trips:
+Index, zipcode, zipcode, distance, time
+
+zipcode:
+zipcode, string

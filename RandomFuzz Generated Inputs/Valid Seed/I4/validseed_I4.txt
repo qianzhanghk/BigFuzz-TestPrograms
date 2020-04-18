@@ -1,0 +1,5 @@
+90001,28,10990
+10009,82,900
+
+semantic: 
+zipcode, age, salary

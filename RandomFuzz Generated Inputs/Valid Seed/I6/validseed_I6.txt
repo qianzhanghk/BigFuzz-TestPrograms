@@ -1,0 +1,3 @@
+3400.0,40,0.0211,Amy
+
+Float, Int, Float, String
