@@ -8,26 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f7432b52-c547-434c-893e-0a4ed6ac9855" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/movie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/movie.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/student1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/student1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/trips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/trips.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/words/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/words/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataset/zipcode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataset/zipcode.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/CommuteType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/CommuteType.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/FindSalary.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/FindSalary.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/PathExplosion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PathExplosion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/StudentGrades.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PathExplosion$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PathExplosion$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CommuteType.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="486">
               <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
@@ -71,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="378">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -166,54 +146,13 @@
   </component>
   <component name="ProjectId" id="1XAxNwiQoBCElpy4mXcLfTu2QRg" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="words" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Benchmarks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz-TestPrograms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -224,7 +163,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WordCountScala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -343,8 +282,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28471476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28902045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,13 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataset/trips.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CommuteType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -510,17 +447,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CommuteType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+    <entry file="file://$PROJECT_DIR$/src/dataset/trips.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/IncomeAggregate.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+        <state relative-caret-position="378">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
