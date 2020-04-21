@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run2/20200421161522_16+I4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run3/20200421161641_129+I4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run3/20200421161641_16+I4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4/20200421162710_16+I4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4/20200421162710_39+I4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4/20200421162710_49+I4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4/20200421162711_469+I4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
