@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="" />
+    <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/Scala/CommuteType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/filter5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/join2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A4/A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A4/A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A5/A5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A5/A5.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +40,6 @@
         <option value="Scala Object" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>L</find>
-      <find>get</find>
-      <find>captureLineage</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,18 +73,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example" />
+      <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A6/run4" />
       <recent name="$PROJECT_DIR$/Subjects/InApplicable/TwoFlows/Spec_BigFuzz" />
       <recent name="$PROJECT_DIR$/Subjects/InApplicable/SymbolicStateOutofBounds/Spec_BigFuzz" />
-      <recent name="$PROJECT_DIR$/Subjects/InApplicable/OutofJDU/Spec_BigFuzz" />
-      <recent name="$PROJECT_DIR$/Subjects/InApplicable/One DF Operator/Spec_BigFuzz" />
-      <recent name="$PROJECT_DIR$/Subjects/InApplicable/For Loop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/scala" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run3" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run2" />
       <recent name="$PROJECT_DIR$/Subjects/InApplicable/TwoFlows/UDF_BigTest" />
-      <recent name="$PROJECT_DIR$/Subjects/InApplicable/TwoFlows/Scala" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FindSalary">
