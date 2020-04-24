@@ -24,10 +24,10 @@
    val joined = trips.join(locations)
    joined
      .map { s =>
-        // Checking if speed is < 25mi/hr
-        if (s._2._1 > 40) {
+        // Checking if property is > 10000
+        if (s._2._1 > 10000) {
           ("rich", 1)
-        } else if (s._2._1 > 15) {
+        } else if (s._2._1 > 1000) {
           ("poor", 1)
         } else {
           ("homeless", 1)

@@ -8,7 +8,7 @@ public class map1 {
        apply("1" , 2, "1");
    }
   static final map1 apply(String s_t1, float s_t2, String s_t3){
-  return (s_t2) <= 40 ? (s_t2) <= 15 ? new map1("homeless",(1)) : new map1("poor",(1)) : new map1("rich",(1));
+  return (s_t2) <= 10000 ? (s_t2) <= 1000 ? new map1("homeless",(1)) : new map1("poor",(1)) : new map1("rich",(1));
 }
 String sa,sb;
 
