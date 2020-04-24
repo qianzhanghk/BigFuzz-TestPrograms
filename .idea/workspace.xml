@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2/Property" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2/Property" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2/Property" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Scala/CommuteType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Combined example/Scala/CommuteType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/map1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +161,7 @@
       <workItem from="1584996589955" duration="6344000" />
       <workItem from="1585421774127" duration="4717000" />
       <workItem from="1585551252929" duration="555000" />
-      <workItem from="1587762080308" duration="624000" />
+      <workItem from="1587762080308" duration="719000" />
     </task>
     <servers />
   </component>
