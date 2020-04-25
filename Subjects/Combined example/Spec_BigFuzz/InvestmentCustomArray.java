@@ -8,7 +8,7 @@ import janala.logger.inst.MemberRef;
 import scala.Tuple2;
 import scala.Tuple4;
 
-import java.util.*;public class CombinedCustomArray {
+import java.util.*;public class InvestmentCustomArray {
 
     private ArrayList<Object> list;
 
