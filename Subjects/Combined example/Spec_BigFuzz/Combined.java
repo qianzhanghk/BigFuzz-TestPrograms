@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Combined {
-public void Combined(String inputFile) throws IOException {
+public void Combined(String inputFile1, String inputFile2) throws IOException {
 ArrayList<String> results0 = CustomArray.read(inputFile1);
 ArrayList<Tuple4> results1 = CombinedCustomArray.Map1(results0);
 ArrayList<Tuple2> results2 = CombinedCustomArray.Map2(results1);
