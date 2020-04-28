@@ -12,7 +12,7 @@ import java.util.*;public class InvestmentCustomArray {
 
     private ArrayList<Object> list;
 
-    public void CombinedCustomArray() {
+    public void InvestmentCustomArray() {
 
     }
  public static ArrayList<Tuple4> Map1(ArrayList<String> result){

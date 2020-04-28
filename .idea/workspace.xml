@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/InvestmentCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/InvestmentCustomArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +57,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Subjects/Combined example/Scala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/Scala" />
+      <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Subjects/Combined example/scala" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run3" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run2" />
       <recent name="$PROJECT_DIR$/Subjects/InApplicable/TwoFlows/UDF_BigTest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Subjects/Combined example/Scala" />
-      <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2" />
-      <recent name="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz" />
-      <recent name="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest" />
-      <recent name="$PROJECT_DIR$/Subjects/Combined example" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FindSalary">
@@ -159,6 +160,8 @@
       <workItem from="1585421774127" duration="4717000" />
       <workItem from="1585551252929" duration="555000" />
       <workItem from="1587762080308" duration="3720000" />
+      <workItem from="1587847198123" duration="146000" />
+      <workItem from="1588095632289" duration="327000" />
     </task>
     <servers />
   </component>
@@ -188,9 +191,10 @@
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
     <state x="1348" y="240" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1580756840891" />
-    <state x="419" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1585599635497">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state x="419" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1588095631290">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
+    <state x="419" y="239" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1588095631290" />
     <state x="419" y="242" key="com.intellij.ide.util.TipDialog/0.23.1440.820@0.23.1440.820" timestamp="1585599635496" />
   </component>
   <component name="antWorkspaceConfiguration">
