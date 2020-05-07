@@ -7,8 +7,231 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dec1b992-d9f0-4d16-a3c0-f37372b7ae21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Subjects/Loan example/Scala/Loan.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/Loan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/InvestmentCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/InvestmentCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A1/no_invalid_seed_for_A!.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P1/no_invalid_seed_for_A!.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/invalidseed_A2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/invalidseed_A2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003918_2+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003918_2+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003935_16+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003935_16+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003935_19+zipcode" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003935_19+zipcode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003935_2+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003935_2+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003935_31+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003935_31+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003935_8+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003935_8+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run1/20200420003935_83+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run1/20200420003935_83+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run2/20200420004018_1+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run2/20200420004018_1+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run2/20200420004018_5+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run2/20200420004018_5+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run3/20200420004223_8+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run3/20200420004223_8+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run3/20200420004227_16+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run3/20200420004227_16+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run4/20200420004254_102+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run4/20200420004254_102+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run4/20200420004254_16+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run4/20200420004254_16+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run4/20200420004254_48+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run4/20200420004254_48+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A2/run4/20200420004254_8+trips" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P2/run4/20200420004254_8+trips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A3/no_invalid_seed_for_A3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P3/no_invalid_seed_for_A3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/invalidseed_A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/invalidseed_A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run1/20200420093202_121+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run1/20200420093202_121+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run1/20200420093202_149+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run1/20200420093202_149+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run1/20200420093202_16+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run1/20200420093202_16+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run1/20200420093202_8+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run1/20200420093202_8+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run2/20200420093349_16+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run2/20200420093349_16+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run2/20200420093351_271+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run2/20200420093351_271+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run2/20200420093354_894+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run2/20200420093354_894+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run3/20200420093430_16+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run3/20200420093430_16+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run3/20200420093430_70+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run3/20200420093430_70+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run3/20200420093431_222+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run3/20200420093431_222+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run3/20200420093432_914+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run3/20200420093432_914+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/A4/run4/20200420093457_28+A4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/P4/run4/20200420093457_28+A4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Scala/A1_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Scala/A1_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Scala/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Scala/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Spec_BigFuzz/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCountCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Spec_BigFuzz/WordCountCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Spec_BigFuzz/WordCountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Spec_BigFuzz/flatMap3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/mapToPair2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Spec_BigFuzz/mapToPair2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/Spec_BigFuzz/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/Spec_BigFuzz/reduceByKey1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/UDF_BigTest/BigTest_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/UDF_BigTest/BigTest_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/UDF_BigTest/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/UDF_BigTest/flatMap3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/UDF_BigTest/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/UDF_BigTest/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A1.Wordcount/UDF_BigTest/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P1.Wordcount/UDF_BigTest/reduceByKey1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Scala/CommuteType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Scala/CommuteType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/CommuteType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteTypeCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/CommuteTypeCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/CommuteTypeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/CommuteTypeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/join6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/join6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/map5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/map5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/Spec_BigFuzz/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/Spec_BigFuzz/reduceByKey4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/UDF_BigTest/BigTest_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/UDF_BigTest/BigTest_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/UDF_BigTest/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/UDF_BigTest/filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/UDF_BigTest/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/UDF_BigTest/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/UDF_BigTest/map5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/UDF_BigTest/map5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A2.CommuteType/UDF_BigTest/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P2.CommuteType/UDF_BigTest/reduceByKey4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/BigTest_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Scala/Propertyloop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Scala/Propertyloop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Spec_BigFuzz/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/Property1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Spec_BigFuzz/Property1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/PropertyCustomArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/PropertyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Spec_BigFuzz/PropertyDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Spec_BigFuzz/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Spec_BigFuzz/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/UDF_BigTest/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/UDF_BigTest/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A3.Applicable_loop/UDF_BigTest/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/UDF_BigTest/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Scala/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Scala/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/WordCountNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/WordCountNewCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/WordCountNewCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/WordCountNewDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/WordCountNewDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/flatMap4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/flatMap4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/Spec_BigFuzz/reduceByKey2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/Spec_BigFuzz/reduceByKey2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/UDF_BigTest/BigTest_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/UDF_BigTest/BigTest_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/UDF_BigTest/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/UDF_BigTest/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/UDF_BigTest/flatMap4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/UDF_BigTest/flatMap4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A4.ExternalFunction/UDF_BigTest/reduceByKey2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P3.ExternalFunction/UDF_BigTest/reduceByKey2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Scala/FindSalary.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Scala/FindSalary.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/FindSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalaryCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/FindSalaryCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/FindSalaryDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/FindSalaryDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/Spec_BigFuzz/reduce1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/Spec_BigFuzz/reduce1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/UDF_BigTest/BigTestInput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/UDF_BigTest/BigTestInput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/UDF_BigTest/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/UDF_BigTest/filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/UDF_BigTest/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/UDF_BigTest/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A5.FindSalary/UDF_BigTest/reduce1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P4.FindSalary/UDF_BigTest/reduce1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Scala/StudentGrade.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Scala/StudentGrade.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/StudentGrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGradesCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/StudentGradesCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/StudentGradesDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/StudentGradesDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/flatMap5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/flatMap5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/Spec_BigFuzz/reduceByKey2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/Spec_BigFuzz/reduceByKey2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/UDF_BigTest/BigTestInput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/UDF_BigTest/BigTestInput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/UDF_BigTest/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/UDF_BigTest/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/UDF_BigTest/flatMap5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/UDF_BigTest/flatMap5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/UDF_BigTest/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/UDF_BigTest/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A6.StudentGrade/UDF_BigTest/reduceByKey2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P5.StudentGrade/UDF_BigTest/reduceByKey2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Scala/MovieRating.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Scala/MovieRating.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/MovieRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRatingCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/MovieRatingCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/MovieRatingDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/MovieRatingDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/Spec_BigFuzz/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/Spec_BigFuzz/reduceByKey1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/UDF_BigTest/BigTestInput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/UDF_BigTest/BigTestInput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/UDF_BigTest/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/UDF_BigTest/filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/UDF_BigTest/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/UDF_BigTest/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/A7.MovieRating/UDF_BigTest/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P6.MovieRating/UDF_BigTest/reduceByKey1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/IntOverflow/BigTest_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Applicable/IntOverflow/IntOverflow.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Scala/CommuteType.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Scala/CommuteTypeWhile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/InvestmentCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/LoadSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/filter5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/filter5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/investment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/investmentDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/LoanDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/join2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/join2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz/map6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/Spec_BigFuzz/map6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/filter5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/UDF_BigTest/filter5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/join2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/UDF_BigTest/join2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/UDF_BigTest/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/UDF_BigTest/map4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest/map6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/Loan example/UDF_BigTest/map6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Scala/ExternalUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Scala/ExternalUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Spec_BigFuzz/ExternalUDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Spec_BigFuzz/ExternalUDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Spec_BigFuzz/ExternalUDFCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Spec_BigFuzz/ExternalUDFCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Spec_BigFuzz/ExternalUDFDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Spec_BigFuzz/ExternalUDFDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Spec_BigFuzz/Inside.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Spec_BigFuzz/Inside.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Spec_BigFuzz/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/Spec_BigFuzz/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/UDF_BigTest/BigTest_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/UDF_BigTest/BigTest_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/UDF_BigTest/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/UDF_BigTest/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I1.InsideCircle/UDF_BigTest/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P7.InsideCircle/UDF_BigTest/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/Scala/OneOp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/Scala/OneOp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/Spec_BigFuzz/OneDFOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/Spec_BigFuzz/OneDFOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/Spec_BigFuzz/OneDFOperatorCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/Spec_BigFuzz/OneDFOperatorCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/Spec_BigFuzz/OneDFOperatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/Spec_BigFuzz/OneDFOperatorDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/Spec_BigFuzz/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/Spec_BigFuzz/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/UDF_BigTest/BigTest_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/UDF_BigTest/BigTest_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I2.StringSelf/UDF_BigTest/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P8.StringSelf/UDF_BigTest/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Scala/OutofJDU.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDUCustomArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/OutofJDUDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Spec_BigFuzz/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/map2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/UDF_BigTest/BigTest_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/UDF_BigTest/Test2$.jad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/UDF_BigTest/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/UDF_BigTest/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/UDF_BigTest/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/UDF_BigTest/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I3.SalaryAnalysisi/UDF_BigTest/map3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Scala/Infiniteloop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Scala/Infiniteloop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/Infiniteloop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Spec_BigFuzz/Infiniteloop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/InfiniteloopCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Spec_BigFuzz/InfiniteloopCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/InfiniteloopDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Spec_BigFuzz/InfiniteloopDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Spec_BigFuzz/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Spec_BigFuzz/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/UDF_BigTest/BigTest_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/UDF_BigTest/BigTest_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/UDF_BigTest/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/UDF_BigTest/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/UDF_BigTest/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/UDF_BigTest/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I4.NumberSeries/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P9.NumberSeries/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Scala/TwoFlows.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Scala/TwoFlows.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Spec_BigFuzz/TwoFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlowsCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Spec_BigFuzz/TwoFlowsCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/TwoFlowsDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Spec_BigFuzz/TwoFlowsDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Spec_BigFuzz/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/Spec_BigFuzz/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/Spec_BigFuzz/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/UDF_BigTest/filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/filter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/UDF_BigTest/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I5.AgeAnalysis/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P10.AgeAnalysis/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Scala/IncomeAggregation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Scala/IncomeAggregation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/DFOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperatorCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/DFOperatorCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/DFOperatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/DFOperatorDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/Test2$.jad" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/Test2$.jad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/filter1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/map3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/mapValues101.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/mapValues101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/mapValues102.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/mapValues102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/Spec_BigFuzz/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/Spec_BigFuzz/reduceByKey4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/Test2$.jad" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/Test2$.jad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/filter1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/map2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/map3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/mapValues4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/mapValues4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/mapValues6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/mapValues6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I6.IncomAggregation/UDF_BigTest/reduceByKey5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P11.IncomAggregation/UDF_BigTest/reduceByKey5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Scala/Propertyloop.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/Property.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/Property1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/PropertyCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Spec_BigFuzz/PropertyCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/PropertyDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/map1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Spec_BigFuzz/map2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/Test2$.jad" beforeDir="false" afterPath="$PROJECT_DIR$/Subjects/P12.PropertyInvestment/Test2$.jad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/UDF_BigTest/map1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/I7.PropertyInvestment/UDF_BigTest/map2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/morethan2args/PropertyInvestmentCalcs.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects/InApplicable/morethan2args/Test2$.jad" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +280,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Subjects/Combined example/Scala" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz" />
-      <recent name="$PROJECT_DIR$/Subjects/Combined example/Scala" />
-      <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2" />
-      <recent name="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest" />
-      <recent name="$PROJECT_DIR$/Subjects/Combined example" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Subjects" />
       <recent name="$PROJECT_DIR$/Subjects/Combined example/scala" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run4" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run3" />
       <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Invalid_Seed/I5/run2" />
-      <recent name="$PROJECT_DIR$/Subjects/InApplicable/TwoFlows/UDF_BigTest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/Scala" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/Spec_BigFuzz" />
+      <recent name="$PROJECT_DIR$/RandomFuzz_Generated_Inputs/Valid_Seed/A2" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example/UDF_BigTest" />
+      <recent name="$PROJECT_DIR$/Subjects/Combined example" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FindSalary">
@@ -161,7 +384,15 @@
       <workItem from="1585551252929" duration="555000" />
       <workItem from="1587762080308" duration="3720000" />
       <workItem from="1587847198123" duration="146000" />
-      <workItem from="1588095632289" duration="327000" />
+      <workItem from="1588095632289" duration="1279000" />
+      <workItem from="1588130041774" duration="13000" />
+      <workItem from="1588130113655" duration="4846000" />
+      <workItem from="1588183057558" duration="2157000" />
+      <workItem from="1588317452328" duration="737000" />
+      <workItem from="1588616275988" duration="18000" />
+      <workItem from="1588702194968" duration="474000" />
+      <workItem from="1588741700392" duration="572000" />
+      <workItem from="1588878408212" duration="1104000" />
     </task>
     <servers />
   </component>
@@ -191,10 +422,12 @@
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
     <state x="1348" y="240" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1580756840891" />
-    <state x="419" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1588095631290">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state x="419" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1588741700554">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="419" y="239" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1588095631290" />
+    <state x="419" y="240" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1588741700554" />
+    <state x="419" y="240" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1588317453979" />
     <state x="419" y="242" key="com.intellij.ide.util.TipDialog/0.23.1440.820@0.23.1440.820" timestamp="1585599635496" />
   </component>
   <component name="antWorkspaceConfiguration">

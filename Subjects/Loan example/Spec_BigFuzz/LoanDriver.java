@@ -5,12 +5,12 @@ import org.junit.runner.RunWith;
 import java.io.IOException;
 @RunWith(JQF.class)
 
-public class investmentDriver {
+public class LoanDriver {
 
 @Fuzz
     public void testCombined(String fileName) throws IOException {
-        System.out.println("CombinedDriver::testCombined: "+fileName);
-        investment analysis = new investment();
-        analysis.Combined(fileName,fileName);
+        System.out.println("LoanDriver::testLoan: "+fileName);
+        Loan analysis = new Loan();
+        analysis.Combined(fileName);
     }
 }
